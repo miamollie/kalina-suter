@@ -1,7 +1,7 @@
 ---
 title: workshops
-banner-image: "http://www.fillmurray.com/2000/300"
 permalink: "/workshops/"
+banner-image: http://www.fillmurray.com/2000/300
 layout: page
 ---
 
