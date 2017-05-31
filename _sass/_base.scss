@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -32,12 +31,11 @@ body {
  */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
+ ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+    margin-top: $spacing-unit / 2;
 }
-
-
 
 /**
  * Images
@@ -61,14 +59,6 @@ figcaption {
 }
 
 
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
-
 li {
     > ul,
     > ol {
@@ -77,14 +67,12 @@ li {
 }
 
 
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
-
 
 
 /**
@@ -122,36 +110,6 @@ blockquote {
     }
 }
 
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: auto;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-
-
 /**
  * Wrapper
  */
@@ -160,8 +118,7 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding: $spacing-unit;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -173,7 +130,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -183,24 +139,5 @@ pre {
         content: "";
         display: table;
         clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
     }
 }
