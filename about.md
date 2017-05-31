@@ -4,12 +4,6 @@ permalink: "/about/"
 layout: page
 ---
 
-derp [jekyllrb.com](http://jekyllrb.com/)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tamen est aliquid, quod nobis non liceat, liceat illis. Quodsi ipsam honestatem undique pertectam atque absolutam. Primum divisit ineleganter; Scripta sane et multa et polita, sed nescio quo pacto auctoritatem oratio non habet. Quare ad ea primum, si videtur; Duo Reges: constructio interrete. Ad eas enim res ab Epicuro praecepta dantur. Quantum Aristoxeni ingenium consumptum videmus in musicis?
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Mihi enim erit isdem istis fortasse iam utendum. Haec et tu ita posuisti, et verba vestra sunt. Itaque a sapientia praecipitur se ipsam, si usus sit, sapiens ut relinquat. Sed quid attinet de rebus tam apertis plura requirere?
