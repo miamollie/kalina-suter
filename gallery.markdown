@@ -1,20 +1,13 @@
 ---
 title: gallery
 date: 2017-05-27 10:43:00 Z
-permalink: "/gallery/"
-layout: default
 Images:
-  image: "/uploads/kalina-2.jpg"
+- image: "/uploads/kalina-2.jpg"
+  title: Kalina
+  credit: Photographer Name
+- image: "/uploads/kalina-home.jpg"
+  title: Kalina Home
+  credit: Photographer Name
 ---
 
-Show reel
-
-...
-
-Gallery of Images
-
-
-...
-
-
-Instagram feed: what I'm up to? training?
+images and videos
