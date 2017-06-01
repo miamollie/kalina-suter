@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+  <div>
+    {% for image in page.Images %}
+      <img src="{{ image.image }}" />
+      <p>{{ image.title }}</p>
+    {% endfor %}
+  </div>
