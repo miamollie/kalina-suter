@@ -1,6 +1,5 @@
 ---
 title: Performance
-date: 2017-05-27 10:43:00 Z
 permalink: "/performance/"
 banner-image: http://www.fillmurray.com/2000/300
 layout: page

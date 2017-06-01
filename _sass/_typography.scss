@@ -8,3 +8,10 @@ a {
     text-decoration: none;
   }
 }
+
+
+.copy {
+  p:first-of-type::first-line {
+    font-size: 1.2rem;
+  }
+}
