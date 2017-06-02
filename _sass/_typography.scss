@@ -11,6 +11,10 @@ a {
 
 
 .copy {
+  h3 {
+    color: $brand-color;
+    margin-left: -1rem;
+  }
   p:first-of-type::first-line {
     font-size: 1.2rem;
   }
