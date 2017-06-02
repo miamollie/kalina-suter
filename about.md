@@ -1,9 +1,9 @@
 ---
 title: About
 permalink: "/about/"
-layout: split-page
 banner-image: http://www.fillmurray.com/2000/300
-feature-image: http://www.fillmurray.com/200/300
+feature-image: "/uploads/kalina-2.jpg"
+layout: split-page
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tamen est aliquid, quod nobis non liceat, liceat illis. Quodsi ipsam honestatem undique pertectam atque absolutam. Primum divisit ineleganter; Scripta sane et multa et polita, sed nescio quo pacto auctoritatem oratio non habet. Quare ad ea primum, si videtur; Duo Reges: constructio interrete. Ad eas enim res ab Epicuro praecepta dantur. Quantum Aristoxeni ingenium consumptum videmus in musicis?
