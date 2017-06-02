@@ -3,7 +3,7 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <div class="full-lg content">{{ content }}</div>
+    <div class="full-lg between-lg">{{ content }}</div>
     {% include footer.html %}
 
   <!-- <script type="text/javascript" src="{{site.baseurl}}/_assets/js/main.js"></script> -->
@@ -13,7 +13,9 @@
 
     $(document).ready(function(){
       $(function() {
-        $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().addClass('selected');
+        if (location.pathname.split("/")[1] !== '') {
+          $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().addClass('selected');
+        }
       });
       //Menu toggle
       $('nav button').click(function(){
