@@ -6,8 +6,6 @@ body {
   height: 100vh;
 }
 
-.content { padding: 2rem;}
-
 .no-scroll {
   overflow-y: hidden;
 }
@@ -29,7 +27,16 @@ body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  min-height: 25vh;
+  min-height: 60vh;
+}
+
+.small-image {
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat: no-repeat;
+  width: 45rem;
 }
 
 .flex { display: flex;}
@@ -42,11 +49,17 @@ body {
 }
 
 @media screen and (min-width: 698px) {
+  .padXY-l { padding: $spacing-unit/2 $spacing-unit/2;}
+  .padY-lg { padding: $spacing-unit 0;}
+  .padX-lg { padding: 0 $spacing-unit;}
+  .marginXY-lg { margin: $spacing-unit $spacing-unit;}
+  .marginY-lg { margin: $spacing-unit 0;}
+  .marginX-lg { margin: 0 $spacing-unit;}
   .fRow-lg { flex-direction: row;}
   .fColumn-lg { flex-direction: column;}
-  .half-lg { width: 50%; }
-  .full-lg { width: 80vw; max-width: 960px; margin: auto}
-  .hide-lg {display: none;}
+  .half-lg { width: 48%;}
+  .full-lg { width: 80vw; max-width: 960px; margin-left: auto; margin-right: auto;}
+  .hide-lg { display: none;}
   .center-lg { justify-content: center;}
   .end-lg { justify-content: flex-end;}
   .around-lg { justify-content: space-around;}
@@ -55,10 +68,16 @@ body {
 }
 
 @media screen and (max-width: 698px) {
+  .padXY-sm { padding: $spacing-unit/2 $spacing-unit/2;}
+  .padY-sm { padding: $spacing-unit/2 0;}
+  .padX-sm { padding: 0 $spacing-unit/2;}
+  .marginXY-sm { margin: $spacing-unit/2 $spacing-unit/2;}
+  .marginY-sm { margin: $spacing-unit/2 0;}
+  .marginX-sm { margin: 0 $spacing-unit/2;}
   .fRow-sm { flex-direction: row;}
   .fColumn-sm { flex-direction: column;}
-  .half-sm { width: 50%; }
-  .full-sm { width: 80vw; max-width: 960px; margin: auto; }
+  .half-sm { width: 48%;}
+  .full-sm { width: 80vw; max-width: 960px; margin-left: auto; margin-right: auto;}
   .hide-sm {display: none;}
   .center-sm { justify-content: center;}
   .around-sm { justify-content: space-around;}
