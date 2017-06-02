@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-banner-image: http://www.fillmurray.com/2000/300
+banner-image: "/uploads/kalina-2.jpg"
 feature-image: "/uploads/kalina-home.jpg"
 layout: split-page
 ---
