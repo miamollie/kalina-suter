@@ -1,5 +1,5 @@
 ---
-title: gallery
+title: Gallery
 layout: gallery
 permalink: "/gallery/"
 Images:
@@ -9,4 +9,5 @@ Images:
 - image: "/uploads/kalina-home.jpg"
   title: Kalina Home
   credit: Photographer Name
+layout: gallery
 ---
