@@ -1,7 +1,7 @@
 ---
 title: Gallery
-layout: gallery
 permalink: "/gallery/"
+layout: gallery
 Images:
 - image: "/uploads/kalina-2.jpg"
   title: Kalina
@@ -9,5 +9,5 @@ Images:
 - image: "/uploads/kalina-home.jpg"
   title: Kalina Home
   credit: Photographer Name
-layout: gallery
 ---
+
