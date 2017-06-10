@@ -1,0 +1,19 @@
+{
+  "name": "kalina-suter",
+  "version": "1.0.0",
+  "description": "Kalina suter aerial artist website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miamollie/kalina-suter.git"
+  },
+  "author": "Mia de Burca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miamollie/kalina-suter/issues"
+  },
+  "homepage": "https://github.com/miamollie/kalina-suter#readme",
+}
