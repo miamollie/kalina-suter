@@ -5,7 +5,8 @@
     list-style-type: none;
     width: 100%;
     li {
-      width: 17rem;
+      width: 33%;
+      min-width: 17rem;
       height: 17rem;
       margin: 5px 2px;
       background-repeat: no-repeat;
@@ -22,7 +23,7 @@
         border: 2px solid #fff;
         box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.2);
         content: '';
-        opacity: 0;        
+        opacity: 0;
         height: 87%;
         width: 85%;
         margin: 1rem auto;

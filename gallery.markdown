@@ -24,3 +24,4 @@ layout: gallery
 ---
 
 Something about the things and the stuff.
+performance:

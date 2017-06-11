@@ -2,19 +2,18 @@
 layout: default
 ---
 <div class="copy">{{content}}</div>
-{% for gallery in site.data.galleries %}
+{{performance.image}}
   <div class="gallery-wrapper">
-  <h2>{{ gallery.description }}</h2>
+  <!-- <h2>{{ performance.description }}</h2> -->
   <ol class="flex wrap between-lg center-sm">
-  {% for image in gallery.images %}
-    <li style="background-image: url({{ gallery.imagefolder }}/{{ image.thumb }})">
+  {% for image in performance %}
+    <li style="background-image: url({{ image.image }})">
       <figcaption>
-        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
-          {{ image.text }}
+        <a href="{{ image.title }}" data-lightbox="{{ performance.id }}" title="{{ image.credit }}">
+          {{ image.title }}
         </a>
     </figcaption>
     </li>
   {% endfor %}
   </ol>
 </div>
-{% endfor %}
