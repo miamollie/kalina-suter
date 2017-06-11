@@ -22,3 +22,4 @@ workshops:
   image: "/uploads/kalina-home.jpg"
 layout: workshops
 ---
+
