@@ -12,7 +12,6 @@ Galleries:
   - title: test
     credit: blah
     image: "/uploads/kalina-2.jpg"
-  - title: Performances
   Photoshoots:
   - title: adgakmsd,f;
     credit: axfgsdfg
@@ -24,4 +23,4 @@ Galleries:
 layout: gallery
 ---
 
-Something about the things and the stuff. 
+Something about the things and the stuff.
