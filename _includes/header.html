@@ -2,7 +2,8 @@
   <nav role="navigation" class="full-lg full-sm flex fRow-lg fColumn-sm between-lg around-sm alignCenter">
     <h2 class="hide-sm">
       <a href="{{ site.baseurl }}/">
-        Kalina <span class='brand-color'>Suter</span>
+        Kalina <span class='brand-color'>Suter</span></br>
+        Circus Artist
       </a>
     </h2>
   	<button type="button" class="hide-lg">
@@ -48,5 +49,8 @@
   </nav>
   {% if page.banner-image %}
     {% include banner.html image=page.banner-image %}
+  {% endif %}
+  {% if page.large-banner %}
+    {% include large-banner.html image=page.large-banner %}
   {% endif %}
 </header>

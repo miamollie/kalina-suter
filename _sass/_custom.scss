@@ -10,36 +10,49 @@ body {
   overflow-y: hidden;
 }
 
-.banner-image {
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 40%;
-  min-height: 15vh;
-}
-
-.feature-image {
+%background-image {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  min-height: 60vh;
 }
 
-.small-image {
+%contain-image {
   background-size: contain;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -webkit-background-size: contain;
   background-repeat: no-repeat;
+}
+
+.banner-image {
+  @extend %background-image;
+  background-position: 12vw -15vh;
+  background-attachment: fixed;
+  min-height: 15vh;
+  @include media-query($on-palm) {
+    background-position: -50vw -12vh;
+  }
+}
+
+.large-image {
+  @extend %background-image;
+  min-height: 45vh;
+}
+
+.feature-image {
+  @extend %background-image;
+  min-height: 60vh;
+}
+
+.small-image {
+  @extend %contain-image;
   width: 45rem;
 }
 
 .flex { display: flex;}
+.wrap {flex-wrap: wrap;}
 .alignCenter { align-items: center;}
 
 @media screen and (max-width: 480px) {

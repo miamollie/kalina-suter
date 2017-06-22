@@ -2,9 +2,42 @@
 layout: default
 ---
 
-  <div>
-    {% for image in page.Images %}
-      <img src="{{ image.image }}" />
-      <p>{{ image.title }}</p>
-    {% endfor %}
-  </div>
+<!-- <div class="copy">{{content}}</div> -->
+<div class="gallery-wrapper">
+  <h2>Performances</h2>
+  <ol class="flex wrap between-lg center-sm">
+  {% for image in page.Galleries.Performances %}
+    <li style="background-image: url({{ image.image }})">
+      <figcaption>
+        <a href="{{ image.image }}" data-lightbox="{{ performance.id }}" title="{{ image.credit }}">
+          {{ image.title }}
+        </a>
+    </figcaption>
+    </li>
+  {% endfor %}
+  </ol>
+  <h2>Photoshoots</h2>
+  <ol class="flex wrap between-lg center-sm">
+  {% for image in page.Galleries.Photoshoots %}
+    <li style="background-image: url({{ image.image }})">
+      <figcaption>
+        <a href="{{ image.image }}" data-lightbox="{{ performance.id }}" title="{{ image.credit }}">
+          {{ image.title }}
+        </a>
+    </figcaption>
+    </li>
+  {% endfor %}
+  </ol>
+  <h2>Training</h2>
+  <ol class="flex wrap between-lg center-sm">
+  {% for image in page.Galleries.Training %}
+    <li style="background-image: url({{ image.image }})">
+      <figcaption>
+        <a href="{{ image.image }}" data-lightbox="{{ performance.id }}" title="{{ image.credit }}">
+          {{ image.title }}
+        </a>
+    </figcaption>
+    </li>
+  {% endfor %}
+  </ol>
+</div>

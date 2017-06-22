@@ -1,7 +1,7 @@
 ---
 title: Workshops
 permalink: "/workshops/"
-banner-image: http://www.fillmurray.com/2000/300
+banner-image: "/uploads/kalina-2.jpg"
 training:
   heading: Teacher Training
   copy: Mihi enim erit isdem istis fortasse iam utendum. Haec et tu ita posuisti,

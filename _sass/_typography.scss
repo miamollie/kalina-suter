@@ -1,6 +1,6 @@
-h1, h2, h3 {
+h2, h3 {
+  color: $brand-color;
 }
-
 
 a {
   text-decoration: none;
@@ -9,10 +9,8 @@ a {
   }
 }
 
-
 .copy {
   h3 {
-    color: $brand-color;
     margin-left: -1rem;
   }
   p:first-of-type::first-line {

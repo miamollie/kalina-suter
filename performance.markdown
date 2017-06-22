@@ -1,7 +1,7 @@
 ---
 title: Performance
 permalink: "/performance/"
-banner-image: http://www.fillmurray.com/2000/300
+main-video: http://www.fillmurray.com/2000/300
 performance:
   heading: Performance Quality
   copy: Lorem lorem lorem
@@ -12,7 +12,7 @@ acts:
 layout: page
 ---
 
-Performance Quality 
+Performance Quality
 
 Acts Available
 
