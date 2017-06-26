@@ -32,7 +32,8 @@ body {
   background-attachment: fixed;
   min-height: 15vh;
   @include media-query($on-palm) {
-    background-position: -50vw -12vh;
+    background-position: center center;
+    background-attachment: scroll;
   }
 }
 
