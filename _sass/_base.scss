@@ -26,6 +26,12 @@ body {
     margin: 0;
 }
 
+// colours
+
+.brand-color {
+  color: $brand-color;
+}
+
 
 
 /**
@@ -84,8 +90,6 @@ a {
         text-decoration: underline;
     }
 }
-
-
 
 /**
  * Blockquotes
