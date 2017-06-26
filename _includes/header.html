@@ -11,7 +11,7 @@
   	</button>
   	<ul class="flex hide-sm">
       <li>
-        <a class="page-link" href="/about/">
+        <a class="page-link" href="{{ site.baseurl }}/">
           {% include svg-line.html %}
           <h4>About</h4>
           {% include svg-line.html %}
@@ -49,8 +49,5 @@
   </nav>
   {% if page.banner-image %}
     {% include banner.html image=page.banner-image %}
-  {% endif %}
-  {% if page.large-banner %}
-    {% include large-banner.html image=page.large-banner %}
   {% endif %}
 </header>
