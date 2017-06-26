@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: "/about/"
+position: 0
 banner-image: "/uploads/kalina-2.jpg"
 feature-image: "/uploads/kalina-home.jpg"
 layout: split-page

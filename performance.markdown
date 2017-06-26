@@ -1,6 +1,7 @@
 ---
 title: Performance
 permalink: "/performance/"
+position: 2
 main-video: http://www.fillmurray.com/2000/300
 performance:
   heading: Performance Quality
