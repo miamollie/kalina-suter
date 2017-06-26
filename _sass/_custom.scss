@@ -184,8 +184,18 @@ nav li a {
   stroke-dasharray: 40;
 }
 
-.line:nth-child(1) {  stroke-dashoffset: 40; margin-left: 2rem;}
-.line:nth-child(3) {  stroke-dashoffset: -40; margin-right: 2rem;}
+.line:nth-child(1) {
+  stroke-dashoffset: 40;
+  @include media-query($on-palm) {
+    margin-left: 2rem;
+  }
+}
+.line:nth-child(3) {
+  stroke-dashoffset: -40;
+  @include media-query($on-palm) {
+    margin-right: 2rem;
+  }
+}
 
 li:hover .line,
 li:focus .line,
