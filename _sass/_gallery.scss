@@ -15,12 +15,13 @@
       -webkit-background-size: cover;
       position: relative;
       overflow: hidden;
-      background-color: #3085a3;
+      background-color: $brand-color;
       text-align: center;
       cursor: pointer;
       @include media-query($on-palm) {
         width: 100%;
       }
+
       figcaption {
         border: 2px solid #fff;
         box-shadow: 0 0 0 2rem rgba(255, 255, 255, 0.2);
@@ -35,26 +36,28 @@
         -webkit-transform: scale3d(1.4,1.4,1);
         transform: scale3d(1.4,1.4,1)
       }
+
       a {
         color: #ffffff;
         width: 100%;
         height: 100%;
-        margin-top: 10rem;
         display: block;
         opacity: 0;
+        font-size: 1rem;
         transition: all 0.35s ease;
         transform: scale(1.5);
       }
     }
+
     li:last-of-type {margin-right: 0;}
     li:first-of-type {margin-left: 0;}
-    li:hover {
-      a {
+    li:hover, li:focus {
+      figcaption {
         opacity: 1;
         transform: scale3d(1,1,1)
       }
 
-      figcaption {
+      a {
         opacity: 1;
         transform: scale3d(1,1,1)
       }
