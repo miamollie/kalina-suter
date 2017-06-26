@@ -6,4 +6,5 @@ tagline: Contact Kalina
 large-image: "/uploads/kalina-hand-ropes.jpg"
 layout: contact
 ---
+
 Get in touch to talk about performances, workshops or creative opportunities.
