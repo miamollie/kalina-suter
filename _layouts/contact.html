@@ -2,8 +2,15 @@
 layout: default
 ---
 
-<article>
-  <div>
-    {{ content }}
-  </div>
-</article>
+<div class="large-image hide-sm full-lg full-sm" style="background-image: url(/uploads/kalina-hand-ropes.jpg);">
+  <form action="https://formspree.io/your@email.com" method="POST">
+   <h2>Get in touch</h2>
+   <div>
+     <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="_replyto" placeholder="yourname@example.com">
+      <textarea name="message" cols="50" rows="10" >What's on your mind? </textarea>
+      <input type="hidden" name="_subject" value="New Contact from Website">
+      <input type="submit" value="Send">
+   </div>
+  </form>
+</div>
