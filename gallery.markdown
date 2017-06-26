@@ -1,6 +1,7 @@
 ---
 title: Gallery
 permalink: "/gallery/"
+position: 1
 Galleries:
   Performances:
   - title: test test test test

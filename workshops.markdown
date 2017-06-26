@@ -1,6 +1,7 @@
 ---
 title: Workshops
 permalink: "/workshops/"
+position: 3
 banner-image: "/uploads/kalina-2.jpg"
 training:
   heading: Teacher Training
