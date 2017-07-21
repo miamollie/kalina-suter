@@ -8,7 +8,7 @@ workshops:
     for all levels. Workshops focus on body awareness, intelligent progressions and
     organic, fluid movement. '
   image: "/uploads/kalina-home.jpg"
-  Key:
+  points:
   - 'Dance Trapeze: spin city - no voms'
   - 'Considerate Conditioning: Work your muscles intelligently for a prolonged circus
     life'
@@ -22,7 +22,7 @@ training:
   copy: 'Kalina complements her in depth circus experience with Pilates and dance
     training to support students in their own achievements. '
   image: "/uploads/kalinasplittrack.jpg"
-  Key:
+  points:
   - NECCA teacher training
   - Pilates teacher training
   - Graduate of place
@@ -31,7 +31,7 @@ experience:
   copy: Kalina has applied her knowledge to support students across the globe from
     private lessons to workshops and residencies as a trainer at circus schools.
   image: "/uploads/kalina-home.jpg"
-  Key:
+  points:
   - Aerial Coach, Spin Circus Academy (2016)
   - Select Workshops, New Zealand and Australia (2017)
   - Other things
