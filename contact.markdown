@@ -7,4 +7,4 @@ large-image: "/uploads/kalina-hand-ropes.jpg"
 layout: contact
 ---
 
-Get in touch to talk about performances, workshops or creative opportunities.
+For bookings and inquires fill out the box below. 
