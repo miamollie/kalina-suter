@@ -5,7 +5,7 @@ position: 1
 Galleries:
   Performances:
   - title: test test test test
-    credit: blach
+    credit: Jamie Mackay
     image: "/uploads/kalinasplittrack.jpg"
   - title: test
     credit: blah
