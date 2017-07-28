@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="flex fRow-lg fColumn-sm full-lg full-sm between-lg around-sm">
+  <div class="marginY-lg marginY-sm half-lg full-sm flex fColumn-lg fColumn-sm between-lg">
+    <h2>{{page.title}}</h2>
+    <div class="copy">
+      {{ page.intro }}
+    </div>
+    <div class="copy">
+      {{ page.extra }}
+    </div>
+      {% include contact-button.html color="#1b618d" %}
+  </div>
+   <div class="marginY-lg marginXY-sm half-lg full-sm feature-image blend" style="background-image: url('{{ page.feature-image }}');"></div>
+</div>
