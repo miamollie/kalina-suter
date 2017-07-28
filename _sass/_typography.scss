@@ -10,10 +10,18 @@ a {
 }
 
 .copy {
+  margin-bottom: $spacing-unit;
   h3 {
     margin-left: -1rem;
   }
   p:first-of-type::first-line {
     font-size: 1.2rem;
+  }
+}
+
+ul {
+  list-style-type: square;
+  li {
+    color: $grey-color-dark;
   }
 }
