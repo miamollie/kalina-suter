@@ -1,7 +1,10 @@
 ---
 title: Workshops
 permalink: "/workshops/"
+layout: workshops
 position: 3
+banner-image: "/uploads/kalina-2.jpg"
+feature-image: "/uploads/kalina-2.jpg"
 workshops:
   heading: Available Workshops
   copy: 'Kalina draws on her extensive movement and body experience to cater workshops
@@ -16,7 +19,6 @@ workshops:
   - Signature Sequences
   - 'Focused Flexibility: Strengthen and active flex something blah'
   - Workshops can also be tailored from the above to suit your studio needs
-banner-image: "/uploads/kalina-2.jpg"
 training:
   heading: Teacher Training
   copy: 'Kalina complements her in depth circus experience with Pilates and dance
@@ -35,6 +37,4 @@ experience:
   - Aerial Coach, Spin Circus Academy (2016)
   - Select Workshops, New Zealand and Australia (2017)
   - Other things
-layout: workshops
 ---
-

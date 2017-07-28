@@ -2,6 +2,8 @@
 layout: default
 ---
 
-{% include feature-row.html heading=page.experience.heading copy=page.experience.copy image=page.experience.image%}
-{% include feature-row.html heading=page.training.heading copy=page.training.copy image=page.training.image%}
-{% include feature-row.html heading=page.workshops.heading copy=page.workshops.copy image=page.workshops.image%}
+<div class="flex fColumn-lg fColumn-sm full-lg full-sm around-lg around-sm">
+  {% include feature-row.html heading=page.experience.heading copy=page.experience.copy image=page.experience.image points=page.experience.points %}
+  {% include feature-row.html heading=page.training.heading copy=page.training.copy image=page.training.image points=page.training.points reverse=true %}
+  {% include feature-row.html heading=page.workshops.heading copy=page.workshops.copy image=page.workshops.image points=page.workshops.points %}
+</div>

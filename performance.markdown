@@ -2,19 +2,7 @@
 title: Performance
 permalink: "/performance/"
 position: 2
-main-video: http://www.fillmurray.com/2000/300
-performance:
-  heading: Performance Quality
-  copy: Lorem lorem lorem
-acts:
-- Dance Trapeze Solo
-- Sexy Chair Dance with handstands
-- Duo Aerial Cube
-layout: page
+video: https://www.youtube.com/watch?v=7OrLroFa0AI
+copy: Kalina demonstrates strength, grace, blah, to create feats of stunning blah to dazzle audiences. Contact Kalina now to enquire about available acts, or request a bespoke performance.
+layout: performance
 ---
-
-Performance Quality
-
-Acts Available
-
-Video Reel
