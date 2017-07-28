@@ -1,8 +1,8 @@
 ---
 title: Workshops
 permalink: "/workshops/"
-layout: workshops
 position: 3
+layout: workshops
 banner-image: "/uploads/kalina-2.jpg"
 feature-image: "/uploads/kalina-2.jpg"
 workshops:
@@ -38,3 +38,4 @@ experience:
   - Select Workshops, New Zealand and Australia (2017)
   - Other things
 ---
+

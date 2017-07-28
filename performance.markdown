@@ -3,6 +3,9 @@ title: Performance
 permalink: "/performance/"
 position: 2
 video: https://www.youtube.com/watch?v=7OrLroFa0AI
-copy: Kalina demonstrates strength, grace, blah, to create feats of stunning blah to dazzle audiences. Contact Kalina now to enquire about available acts, or request a bespoke performance.
+copy: Kalina demonstrates strength, grace, blah, to create feats of stunning blah
+  to dazzle audiences. Contact Kalina now to enquire about available acts, or request
+  a bespoke performance.
 layout: performance
 ---
+
