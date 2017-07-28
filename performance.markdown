@@ -2,7 +2,7 @@
 title: Performance
 permalink: "/performance/"
 position: 2
-video: /uploads/video.mp4
+video: "/uploads/video.mp4"
 layout: performance
 ---
 
