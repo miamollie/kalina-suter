@@ -1,1 +1,3 @@
-<video src="{{include.video}}&html5=True" x-webkit-airplay="allow" controls></video>
+<video playsinline autoplay muted controls x-webkit-airplay="allow" class="video">
+  <source src="{{include.video}}" type="video/mp4" />
+</video>
