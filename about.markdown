@@ -2,7 +2,7 @@
 title: Circus Artist, Dancer, Instructor
 permalink: "/about/"
 position: 1
-feature-image: "/uploads/kalina-reaching.jpg"
+feature-image: "/uploads/KalinaSuterHeadshot.jpg"
 intro: "Raised on horseback in the mountains, Kalina’s fascination with movement took
   root at an early age, spending time trick riding and dancing in a youth performance
   group. Cultivating her hunger for the creative, she pursued contemporary dance,
@@ -13,13 +13,11 @@ intro: "Raised on horseback in the mountains, Kalina’s fascination with moveme
   Program in Vermont, USA. Kalina’s main passion and specialization is in single point
   trapeze and other skills include Lyra, Duo Lyra, Spanish Web, Fabric, and Contemporary
   Dance. Tantalized by the possibilities of movement and technical exploration, her
-  style and expertise are ever evolving.  \nAlong with performing, Kalina has a keen
-  interest in biomechanics and ideokinesis, incorporating these approaches into her
-  training and as an instructor. She is currently completing her Pilates instructor
-  certification and continues to seek out new ways of working with the body and blend
-  them with her work in Circus.\n"
-extra: Quodsi ipsam honestatem undique pertectam atque absolutam. Primum divisit ineleganter;
-  Scripta sane et multa et polita, sed nescio quo pacto auctoritatem oratio non habet.
+  style and expertise are ever evolving.  \n\n"
+extra: Along with performing, Kalina has a keen interest in biomechanics and ideokinesis,
+  incorporating these approaches into her training and as an instructor. She is currently
+  completing her Pilates instructor certification and continues to seek out new ways
+  of working with the body and blend them with her work in Circus.
 layout: about
 ---
 
