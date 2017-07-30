@@ -2,7 +2,7 @@
 title: Circus Artist, Dancer, Instructor
 permalink: "/about/"
 position: 1
-feature-image: "/uploads/kalina-reaching.jpg"
+feature-image: "/uploads/KalinaSuterHeadshot.jpg"
 intro: "Raised on horseback in the mountains, Kalina’s fascination with movement took
   root at an early age, spending time trick riding and dancing in a youth performance
   group. Cultivating her hunger for the creative, she pursued contemporary dance,
