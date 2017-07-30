@@ -17,17 +17,8 @@ workshops:
   - Signature Sequences
   - 'Focused Flexibility: Strengthen and active flex something blah'
   - Workshops can also be tailored from the above to suit your studio needs
-training:
-  heading: Teacher Training
-  copy: 'Kalina complements her in depth circus experience with Pilates and dance
-    training to support students in their own achievements. '
-  image: "/uploads/kalinasplittrack.jpg"
-  points:
-  - NECCA teacher training
-  - Pilates teacher training
-  - Graduate of place
 experience:
-  heading: Teaching Experience
+  heading: Teaching Experience & Education
   copy: Kalina has applied her knowledge to support students across the globe from
     private lessons to workshops and residencies as a trainer at circus schools.
   image: "/uploads/kalina-home.jpg"
