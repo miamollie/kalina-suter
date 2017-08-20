@@ -65,8 +65,9 @@ body {
   h1 {
     text-align: center;
     color: white;
-    font-size: 2.5em;
-    font-family: "Homemade Apple", cursive;
+    font-size: 3.5em;
+    font-style: italic;
+    font-family: "Alegreya", serif;
     -webkit-font-smoothing: antialiased;
   }
 }
@@ -167,18 +168,18 @@ nav li a {
 //details
 .line {
   stroke: #1b618d;
-  width: 5vw;
+  width: 50px;
   height: 1px;
   stroke-width: 2px;
-  stroke-dasharray: 5vw;
+  stroke-dasharray: 50px;
   &:nth-child(1) {
-    stroke-dashoffset: 5vw;
+    stroke-dashoffset: 50px;
     @include media-query($on-palm) {
       margin-left: 2rem;
     }
   }
   &:nth-child(3) {
-    stroke-dashoffset: -5vw;
+    stroke-dashoffset: -50px;
     @include media-query($on-palm) {
       margin-right: 2rem;
     }
@@ -202,14 +203,14 @@ form {
 
 input, textarea {
   box-sizing: border-box;
-  margin:0;
-	border:0;
-	padding:0;
-	display:inline-block;
-	vertical-align:middle;
-	white-space:normal;
-	background:none;
-	line-height:1;
+  margin: 0;
+	border: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	background: none;
+	line-height: 1;
 
   width: 30vw;
   padding: $spacing-unit / 2;
@@ -223,6 +224,14 @@ input, textarea {
   @include media-query($on-palm) {
     width: 75vw;
   }
+}
+
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+     -webkit-appearance: none;
+     border-radius: 0;
 }
 
 textarea[name="message"] { color: black; }
