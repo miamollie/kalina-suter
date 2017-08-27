@@ -1,9 +1,4 @@
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-}
+
 
 
 // helpers
@@ -65,8 +60,9 @@ body {
   h1 {
     text-align: center;
     color: white;
-    font-size: 2.5em;
-    font-family: "Homemade Apple", cursive;
+    font-size: 3.5em;
+    font-style: italic;
+    font-family: "Alegreya", serif;
     -webkit-font-smoothing: antialiased;
   }
 }
@@ -118,6 +114,9 @@ nav h3 {
 nav li {
   display: inline;
   padding: 15px;
+  &:last-of-type {
+    padding-right: 0;
+  }
 }
 
 nav li a {
@@ -129,15 +128,18 @@ nav li a {
 
 @media screen and (max-width: 698px) {
   .menu-open {
+    box-sizing: border-box;
     height: 100vh;
     width: 100vw;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
     background-color: #fff;
-    transition: background-color 0.4s ease;
+    transition: all 0.4s ease;
+    border: 3px solid $brand-color;
+    padding: $spacing-unit / 2;
   }
 
   .menu-open button h3 {
@@ -145,40 +147,44 @@ nav li a {
   }
 
   .menu-open ul {
+    margin: 0;
     flex-direction: column;
-    height: 80vh;
     align-items: center;
     justify-content: space-around;
-  }
+    height: 70%;
 
-  .menu-open li a {
-    font-size: 1.8rem;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
+    li {
+      padding: 0;
+      a {
+        font-size: 1.8rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+      }
+    }
   }
 
   .line {
-    width: 25vw;
+    width: 50px;
   }
 }
 
 //details
 .line {
   stroke: #1b618d;
-  width: 5vw;
+  width: 50px;
   height: 1px;
   stroke-width: 2px;
-  stroke-dasharray: 5vw;
+  stroke-dasharray: 50px;
   &:nth-child(1) {
-    stroke-dashoffset: 5vw;
+    stroke-dashoffset: 50px;
     @include media-query($on-palm) {
       margin-left: 2rem;
     }
   }
   &:nth-child(3) {
-    stroke-dashoffset: -5vw;
+    stroke-dashoffset: -50px;
     @include media-query($on-palm) {
       margin-right: 2rem;
     }
@@ -202,14 +208,14 @@ form {
 
 input, textarea {
   box-sizing: border-box;
-  margin:0;
-	border:0;
-	padding:0;
-	display:inline-block;
-	vertical-align:middle;
-	white-space:normal;
-	background:none;
-	line-height:1;
+  margin: 0;
+	border: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	background: none;
+	line-height: 1;
 
   width: 30vw;
   padding: $spacing-unit / 2;
@@ -223,6 +229,14 @@ input, textarea {
   @include media-query($on-palm) {
     width: 75vw;
   }
+}
+
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+     -webkit-appearance: none;
+     border-radius: 0;
 }
 
 textarea[name="message"] { color: black; }
@@ -252,14 +266,14 @@ footer li, footer h3, footer ul {
 }
 
 footer li {
-  padding: 15px;
+  padding: $spacing-unit / 2;
   > i {
     font-size: 1.5rem;
   }
 }
 
 .contact-button {
-  padding: 15px;
+  padding: $spacing-unit / 2;
   letter-spacing: 0.1rem;
   margin: auto;
   display: block;
