@@ -114,6 +114,9 @@ nav h3 {
 nav li {
   display: inline;
   padding: 15px;
+  &:last-of-type {
+    padding-right: 0;
+  }
 }
 
 nav li a {
@@ -263,14 +266,14 @@ footer li, footer h3, footer ul {
 }
 
 footer li {
-  padding: 15px;
+  padding: $spacing-unit / 2;
   > i {
     font-size: 1.5rem;
   }
 }
 
 .contact-button {
-  padding: 15px;
+  padding: $spacing-unit / 2;
   letter-spacing: 0.1rem;
   margin: auto;
   display: block;
