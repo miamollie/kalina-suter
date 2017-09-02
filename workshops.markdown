@@ -8,25 +8,32 @@ workshops:
   heading: Available Workshops
   copy: 'Kalina draws on her extensive movement and body experience to cater workshops
     for all levels. Workshops focus on body awareness, intelligent progressions and
-    organic, fluid movement. '
+    organic movement. She currently offers workshops or private lessons in the following:'
   image: "/uploads/_NIK1877.jpg"
   points:
-  - 'Dance Trapeze: '
-  - 'Considerate Conditioning: Work your muscles intelligently for a prolonged circus
-    life'
-  - 'Go your own way: Supported creative play to find your own style'
+  - Dance Trapeze/Static Trapeze
+  - 'Flexibility '
+  - 'Creative exploration '
   - Signature Sequences
   - 'Focused Flexibility: Strengthen and active flex something blah'
   - Workshops can also be tailored from the above to suit your studio needs
 experience:
   heading: Teaching Experience & Education
-  copy: Kalina has applied her knowledge to support students across the globe from
-    private lessons to workshops and residencies as a trainer at circus schools.
+  copy: " As a teacher Kalina works with each student as an individual and strives
+    to find the approach that works best for them. She is dedicated and passionate
+    about making sure her students feel respected and supported, while having fun,
+    exploring their own creative selves, and learning safe technique. Her background
+    in dance, pilates, physical theater, and circus all blend into her teachings.
+    Kalina has taught though out Europe,UK, USA, Australia and New Zealand. \n"
   image: "/uploads/kalina-home.jpg"
   points:
-  - Aerial Coach, Spin Circus Academy (2016)
-  - Select Workshops, New Zealand and Australia (2017)
-  - Other things
+  - " The Circus Spot (Australia) 2017"
+  - The Dust Palace (New Zealand) 2017
+  - Spin Circus Academy (Australia) 2017
+  - Irish Aerial Dance Festival (Ireland) 2016
+  - HighJinks (Scotland) 2015
+  - New England Center for Circus Arts (USA) 2015
+  - " Attended NECCA Teacher Training (USA) 2015"
 layout: workshops
 ---
 
