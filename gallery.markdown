@@ -4,35 +4,35 @@ permalink: "/gallery/"
 position: 1
 Galleries:
   Performances:
-  - title: test test test test
-    credit: Jamie Mackay
-    image: "/uploads/kalinasplittrack.jpg"
-  - title: test
-    credit: blah
-    image: "/uploads/kalina-home.jpg"
-  - title: test
-    credit: blah
-    image: "/uploads/kalina-2.jpg"
-  - title: fsdfgdfgggggg
-    credit: derp derp
-    image: "/uploads/kalina-hand-ropes.jpg"
+  - title: 'Circus Spectacular '
+    credit: Jeff Lewis
+    image: "/uploads/Kalina-10.jpg"
+  - title: Eighteen tickets to elsewhere
+    credit: Elsie Smith
+    image: "/uploads/DSC_5442-L%20(2).jpg"
+  - title: 'Eighteen tickets to elsewhere '
+    credit: Jeff Lewis
+    image: "/uploads/Protrack-158-L.jpg"
+  - title: Drommenes Sirkus
+    credit: Preben Liland Madsen
+    image: "/uploads/12794913_10153832605980791_14466826340189310_o.jpg"
   Photoshoots:
-  - title: adgakmsd,f;
-    credit: axfgsdfg
-    image: "/uploads/kalina-reaching.jpg"
-  - title: fsdfgdfgggggg
-    credit: derp derp
+  - title: 
+    credit: Jeff Woodward
+    image: "/uploads/_DSC4003.jpg"
+  - title: 
+    credit: Jeff Woodward
     image: "/uploads/kalina-hand-ropes.jpg"
-  - title: adgakmsd,f;
-    credit: axfgsdfg
-    image: "/uploads/kalina-reaching.jpg"
-  - title: fsdfgdfgggggg
-    credit: derp derp
-    image: "/uploads/kalina-hand-ropes.jpg"
+  - title: 
+    credit: Jeff Woodward
+    image: "/uploads/blkwhiteheadshot.jpg"
+  - title: 
+    credit: Jeff Woodward
+    image: "/uploads/_D5I3558_edited.jpg"
   Training:
-  - title: fsdfgdfgggggg
-    credit: derp derp
-    image: "/uploads/kalina-hand-ropes.jpg"
+  - title: 
+    credit: 
+    image: "/uploads/IMG_0290.JPG"
 layout: gallery
 ---
 
