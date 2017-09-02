@@ -33,6 +33,12 @@ Galleries:
   - title: 
     credit: 
     image: "/uploads/IMG_0290.JPG"
+  - title: 
+    credit: 
+    image: "/uploads/IMG_1298.JPG"
+  - title: 
+    credit: 
+    image: "/uploads/IMG_4091.JPG"
 layout: gallery
 ---
 
