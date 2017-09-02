@@ -2,7 +2,7 @@
 title: Circus Artist, Dancer, Instructor
 permalink: "/about/"
 position: 1
-feature-image: "/uploads/KalinaSuterHeadshot.jpg"
+feature-image: "/uploads/wolfeyeskalina.jpg"
 layout: about
 ---
 
