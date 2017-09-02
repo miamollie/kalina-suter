@@ -19,7 +19,7 @@ Galleries:
   Photoshoots:
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/_DSC4003.jpg"
+    image: "/uploads/kalinaidfbw3.jpg"
   - title: 
     credit: Jeff Woodward
     image: "/uploads/kalina-hand-ropes.jpg"
