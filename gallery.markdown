@@ -12,7 +12,7 @@ Galleries:
     image: "/uploads/DSC_5442-L%20(2).jpg"
   - title: 'Eighteen tickets to elsewhere '
     credit: Jeff Lewis
-    image: "/uploads/Protrack-158-L.jpg"
+    image: "/uploads/Protrack-158-L%20(2).jpg"
   - title: Drommenes Sirkus
     credit: Preben Liland Madsen
     image: "/uploads/12794913_10153832605980791_14466826340189310_o.jpg"
