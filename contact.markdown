@@ -7,4 +7,4 @@ large-image: "/uploads/kalina-hand-ropes.jpg"
 layout: contact
 ---
 
-For bookings and inquires fill out the box below. 
+For bookings and inquires please fill out the box.
