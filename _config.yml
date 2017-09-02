@@ -10,7 +10,7 @@ collections:
     output: true
 email: kalinasuter@gmail.com
 description: derp
-baseurl: ''
+baseurl: 
 url: http://kalinasuter.com
 instagram_username: inkedleaf
 markdown: kramdown
