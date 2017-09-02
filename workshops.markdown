@@ -1,6 +1,7 @@
 ---
 title: Workshops
 permalink: "/workshops/"
+published: false
 position: 3
 banner-image: "/uploads/kalina-2.jpg"
 workshops:
@@ -8,9 +9,9 @@ workshops:
   copy: 'Kalina draws on her extensive movement and body experience to cater workshops
     for all levels. Workshops focus on body awareness, intelligent progressions and
     organic, fluid movement. '
-  image: "/uploads/kalina-home.jpg"
+  image: "/uploads/_NIK1877.jpg"
   points:
-  - 'Dance Trapeze: spin city - no voms'
+  - 'Dance Trapeze: '
   - 'Considerate Conditioning: Work your muscles intelligently for a prolonged circus
     life'
   - 'Go your own way: Supported creative play to find your own style'
