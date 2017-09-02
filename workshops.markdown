@@ -1,7 +1,6 @@
 ---
 title: Workshops
 permalink: "/workshops/"
-published: false
 position: 3
 banner-image: "/uploads/kalina-2.jpg"
 workshops:
