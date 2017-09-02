@@ -24,9 +24,13 @@ experience:
     private lessons to workshops and residencies as a trainer at circus schools.
   image: "/uploads/kalina-home.jpg"
   points:
-  - Aerial Coach, Spin Circus Academy (2016)
-  - Select Workshops, New Zealand and Australia (2017)
-  - Other things
+  - " The Circus Spot (Australia) 2017"
+  - The Dust Palace (New Zealand) 2017
+  - Spin Circus Academy (Australia) 2017
+  - Irish Aerial Dance Festival (Ireland) 2016
+  - HighJinks (Scotland) 2015
+  - New England Center for Circus Arts (USA) 2015
+  - " Attended NECCA Teacher Training (USA) 2015"
 layout: workshops
 ---
 
