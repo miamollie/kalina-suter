@@ -24,7 +24,7 @@ experience:
     and learning safe technique. Her background in dance, pilates, physical theater,
     and circus all blend into her teachings. Kalina has taught through out Europe,UK,
     USA, Australia and New Zealand. \n"
-  image: "/uploads/kalina-home.jpg"
+  image: "/uploads/knf.png"
   points:
   - " The Circus Spot (Australia) 2017"
   - The Dust Palace (New Zealand) 2017
