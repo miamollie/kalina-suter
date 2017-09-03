@@ -22,7 +22,7 @@ Galleries:
     image: "/uploads/kalinaidfbw3.jpg"
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/kalina-hand-ropes.jpg"
+    image: 
   - title: 
     credit: Jeff Woodward
     image: "/uploads/blkwhiteheadshot.jpg"
