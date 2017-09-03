@@ -13,17 +13,17 @@ workshops:
   - Dance Trapeze/Static Trapeze
   - 'Flexibility '
   - 'Creative exploration '
-  - Signature Sequences
-  - 'Focused Flexibility: Strengthen and active flex something blah'
-  - Workshops can also be tailored from the above to suit your studio needs
+  - 
+  - 
+  - 
 experience:
   heading: Teaching Experience & Education
-  copy: " As a teacher Kalina works with each student as an individual and strives
-    to find the approach that works best for them. She is dedicated and passionate
-    about making sure her students feel respected and supported, while having fun,
-    exploring their own creative selves, and learning safe technique. Her background
-    in dance, pilates, physical theater, and circus all blend into her teachings.
-    Kalina has taught though out Europe,UK, USA, Australia and New Zealand. \n"
+  copy: " As a teacher Kalina works with each student to find the approach that works
+    best for them. She is dedicated and passionate about making sure her students
+    feel respected and supported, while having fun, exploring their own creative selves,
+    and learning safe technique. Her background in dance, pilates, physical theater,
+    and circus all blend into her teachings. Kalina has taught through out Europe,UK,
+    USA, Australia and New Zealand. \n"
   image: "/uploads/kalina-home.jpg"
   points:
   - " The Circus Spot (Australia) 2017"
