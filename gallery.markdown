@@ -9,7 +9,7 @@ Galleries:
     image: "/uploads/Kalina-10.jpg"
   - title: Eighteen tickets to elsewhere
     credit: Elsie Smith
-    image: "/uploads/DSC_5442-L%20(2).jpg"
+    image: "/uploads/Elbowhang.jpg"
   - title: 'Eighteen tickets to elsewhere '
     credit: Jeff Lewis
     image: "/uploads/Protrack-158-L%20(2).jpg"
