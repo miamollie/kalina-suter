@@ -12,10 +12,8 @@ workshops:
   points:
   - Dance Trapeze/Static Trapeze
   - 'Flexibility '
+  - 'Constructive conditioning '
   - 'Creative exploration '
-  - 
-  - 
-  - 
 experience:
   heading: Teaching Experience & Education
   copy: " As a teacher Kalina works with each student to find the approach that works
