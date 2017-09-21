@@ -9,8 +9,10 @@ collections:
     title: Uploads
     output: true
 email: kalinasuter@gmail.com
-description: derp
+description: Aerialist dancer creation
 baseurl: 
 url: http://kalinasuter.com
 instagram_username: inkedleaf
 markdown: kramdown
+exclude:
+- node_modules
