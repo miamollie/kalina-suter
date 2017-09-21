@@ -23,13 +23,13 @@ Galleries:
     image: "/uploads/kalinaidfbw3.jpg"
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/_D5I3614_edited.jpg"
+    image: "/uploads/bridge%20split%20.jpg"
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/blkwhiteheadshot.jpg"
+    image: "/uploads/Back%20planche%20studio%20.jpg"
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/_D5I3558_edited.jpg"
+    image: "/uploads/armbreaker%20.jpg"
   Training:
   - title: 
     credit: 
