@@ -17,6 +17,12 @@ Galleries:
   - title: Drommenes Sirkus
     credit: Preben Liland Madsen
     image: "/uploads/12794913_10153832605980791_14466826340189310_o.jpg"
+  - title: 'Eighteen Tickets to Elsewhere '
+    credit: Elsie Smith
+    image: "/uploads/DSC_3542-L.jpg"
+  - title: 'Circus Spectacular '
+    credit: 'Jeff Lewis '
+    image: "/uploads/Kalina-65.jpg"
   Photoshoots:
   - title: 
     credit: Jeff Woodward
