@@ -1,5 +1,5 @@
 ---
-title: Circus Artist, Dancer, Instructor
+title: About
 permalink: "/about/"
 position: 1
 feature-image: "/uploads/wolfeyeskalina.jpg"
