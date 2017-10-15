@@ -16,3 +16,4 @@ instagram_username: inkedleaf
 markdown: kramdown
 exclude:
 - node_modules
+- package.json
