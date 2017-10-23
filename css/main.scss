@@ -3,7 +3,7 @@
 
 @charset "utf-8";
 
-// Our variables
+// ariables
 $base-font-family: "Quattrocento Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   1rem;
 $base-font-weight: 300;
@@ -12,10 +12,14 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #222c36;
-$background-color: #fff;
-$brand-color:      #1b618d;
+$text-color:       #ddd;
+$background-highlight: rgba(7, 40, 60, 0.7);
+$background-color: rgba(20, 60, 90, 0.8);
+// $brand-color:      #1b618d;
+// $brand-color:      #062f56;
+$brand-color:      #07253e;
 
+$white:            #ffffff;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);

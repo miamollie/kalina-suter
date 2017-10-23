@@ -2,9 +2,15 @@
 layout: default
 ---
 
-{% include video.html video=page.video %}
+<div class="flex fRow-lg fColumnReverse-sm full-lg full-sm between-lg around-sm">
+  <div class="marginY-lg marginXY-sm half-lg full-sm" >
+    {% include video.html video=page.video %}
+  </div>
+  <div class="marginY-lg marginY-sm half-lg full-sm flex fColumn-lg fColumn-sm between-lg">
+    <div class="copy">
+      {{ content }}
+    </div>
+      {% include contact-button.html %}
+  </div>
 
-<div class="copy">
-  {{ content }}
 </div>
-{% include contact-button.html color="$brand-color" %}
