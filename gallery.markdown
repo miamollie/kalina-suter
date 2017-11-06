@@ -7,9 +7,9 @@ Galleries:
   - title: 'Circus Spectacular '
     credit: Jeff Lewis
     image: "/uploads/Kalina-10.jpg"
-  - title: Eighteen tickets to elsewhere
-    credit: Elsie Smith
-    image: "/uploads/Elbowhang.jpg"
+  - title: CirquAntique Cocktail
+    credit: 
+    image: "/uploads/Cirquantique%20-%20Cocktail%2022%20octobre%202017-5690.jpg"
   - title: 'Eighteen tickets to elsewhere '
     credit: Jeff Lewis
     image: "/uploads/Heelhangprotrack.jpg"
@@ -17,12 +17,12 @@ Galleries:
   - title: Drommenes Sirkus
     credit: Preben Liland Madsen
     image: "/uploads/12794913_10153832605980791_14466826340189310_o.jpg"
-  - title: 'Eighteen Tickets to Elsewhere '
-    credit: Elsie Smith
-    image: "/uploads/DSC_3542-L.jpg"
   - title: 'Circus Spectacular '
     credit: 'Jeff Lewis '
     image: "/uploads/Kalina-65.jpg"
+  - title: CirquAntique Cocktail
+    credit: 
+    image: "/uploads/Cirquantique%20-%20Cocktail%2022%20octobre%202017-8528.jpg"
   Photoshoots:
   - title: 
     credit: Jeff Woodward
