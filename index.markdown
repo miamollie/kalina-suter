@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: "/"
-hero-image: "/uploads/Cirquantique%20-%20Cocktail%2022%20octobre%202017-5690-5a37b5.jpg"
+hero-image: "/uploads/DSC_5461-L%20(2).jpg"
 heading: Aerial Dance Creation
 layout: home
 ---
