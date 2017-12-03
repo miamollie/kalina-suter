@@ -8,8 +8,8 @@ Galleries:
     credit: Jeff Lewis
     image: "/uploads/Kalina-10.jpg"
   - title: CirquAntique Cocktail
-    credit: 
-    image: "/uploads/Cirquantique%20-%20Cocktail%2022%20octobre%202017-5690.jpg"
+    credit: Alex  Munoz
+    image: "/uploads/DSC_97650000422102017193517.jpg"
   - title: 'Eighteen tickets to elsewhere '
     credit: Jeff Lewis
     image: "/uploads/Heelhangprotrack.jpg"
