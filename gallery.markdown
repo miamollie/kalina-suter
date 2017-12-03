@@ -26,7 +26,7 @@ Galleries:
   Photoshoots:
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/kalinaidfbw3.jpg"
+    image: "/uploads/Draptrap.jpg"
   - title: 
     credit: Jeff Woodward
     image: "/uploads/bridge%20split%20.jpg"
@@ -36,6 +36,14 @@ Galleries:
   - title: 
     credit: Jeff Woodward
     image: "/uploads/armbreaker%20.jpg"
+  - title: 
+    credit: Jeff Woodward
+    image: "/uploads/DSC_1345.jpg"
+    Key: 
+  - title: 
+    credit: Jeff Woodward
+    image: "/uploads/DSC_1443-2%20(1024x1024).jpg"
+    Key: 
   Training:
   - title: 
     credit: 
