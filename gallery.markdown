@@ -54,6 +54,15 @@ Galleries:
   - title: 
     credit: 
     image: "/uploads/IMG_4091.JPG"
+  - title: 
+    credit: 
+    image: "/uploads/IMG_4955.jpg"
+  - title: 
+    credit: 
+    image: "/uploads/IMG_5364.jpg"
+  - title: 
+    credit: 
+    image: "/uploads/IMG_E5191.JPG"
 layout: gallery
 ---
 
