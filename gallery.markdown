@@ -13,7 +13,6 @@ Galleries:
   - title: 'Eighteen tickets to elsewhere '
     credit: Jeff Lewis
     image: "/uploads/Heelhangprotrack.jpg"
-    Key: 
   - title: Drommenes Sirkus
     credit: Preben Liland Madsen
     image: "/uploads/12794913_10153832605980791_14466826340189310_o.jpg"
@@ -39,11 +38,9 @@ Galleries:
   - title: 
     credit: Jeff Woodward
     image: "/uploads/DSC_1345.jpg"
-    Key: 
   - title: 
     credit: Jeff Woodward
     image: "/uploads/DSC_1443-2%20(1024x1024).jpg"
-    Key: 
   Training:
   - title: 
     credit: 
