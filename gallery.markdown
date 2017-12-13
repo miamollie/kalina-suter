@@ -7,9 +7,9 @@ Galleries:
   - title: 'Circus Spectacular '
     credit: Jeff Lewis
     image: "/uploads/Kalina-10.jpg"
-  - title: CirquAntique Cocktail
-    credit: Alex  Munoz
-    image: "/uploads/DSC_97650000422102017193517.jpg"
+  - title: Residency Showcase at NECCA
+    credit: Elsie Smith
+    image: "/uploads/Spintrapezestormact.jpg"
   - title: 'Eighteen tickets to elsewhere '
     credit: Jeff Lewis
     image: "/uploads/Heelhangprotrack.jpg"
