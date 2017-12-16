@@ -1,6 +1,7 @@
 ---
 title: Workshops
 permalink: "/workshops/"
+published: false
 position: 3
 banner-image: "/uploads/kalina-2.jpg"
 workshops:
@@ -11,9 +12,9 @@ workshops:
   image: "/uploads/_NIK1877.jpg"
   points:
   - Dance Trapeze/Static Trapeze
-  - 'Flexibility '
-  - 'Constructive conditioning '
-  - 'Creative exploration '
+  - 'Functional Flexibility '
+  - 'Constructive Conditioning '
+  - 'Creative Exploration '
 experience:
   heading: Teaching Experience & Education
   copy: " As a teacher Kalina works with each student to find the approach that works
