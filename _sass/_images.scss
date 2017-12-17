@@ -14,17 +14,6 @@
   background-repeat: no-repeat;
 }
 
-.banner-image {
-  @extend %background-image;
-  background-position: 10vw -15vh;
-  background-attachment: fixed;
-  min-height: 15vh;
-  @include media-query($on-palm) {
-    background-position: center center;
-    background-attachment: scroll;
-  }
-}
-
 .hero {
   @extend %background-image;
   background-position: 20vw 0;

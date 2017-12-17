@@ -1,11 +1,14 @@
 <header>
   <nav role="navigation" class="full-lg full-sm flex fRow-lg fColumn-sm between-lg around-sm alignCenter">
+    {% if page.permalink != "/" %}
     <h1 class="hide-sm">
       <a href="{{ site.baseurl }}/">
         Kalina Suter</br>
         <span class='smaller'>Circus Artist</span>
       </a>
     </h1>
+    {% endif %}
+
   	<button type="button" class="hide-lg">
   		<h3>menu</h3>
   	</button>
@@ -13,7 +16,7 @@
     {% assign pages = site.pages | sort:"position" %}
     <ul class="flex hide-sm">
       {% for p in pages %}
-        {% if p.published != false and p.title  %}
+        {% if p.published != false and p.permalink != "/"  %}
         <li {% if p.url == page.permalink %}class="selected"{% endif %}>
           <a class="page-link" href="{{ p.permalink }}">
             {% include svg-line.html %}
@@ -25,7 +28,4 @@
       {% endfor %}
   	</ul>
   </nav>
-  {% if page.banner-image %}
-    {% include banner.html image=page.banner-image %}
-  {% endif %}
 </header>

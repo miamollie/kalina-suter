@@ -18,6 +18,5 @@
       $('nav').removeClass("menu-open");
       $('nav ul').addClass("hide-sm");
       $('nav h3').text('menu');
-      // $(this).addClass('selected').siblings().removeClass('selected');
     });
   })
