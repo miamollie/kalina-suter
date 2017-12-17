@@ -3,7 +3,7 @@
 
 @charset "utf-8";
 
-// ariables
+// variables
 $base-font-family: "Quattrocento Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   1rem;
 $base-font-weight: 300;
@@ -12,11 +12,10 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #ddd;
+$text-color:       #333333;
 $background-highlight: rgba(7, 40, 60, 0.7);
+$background-white: #eef;
 $background-color: rgba(20, 60, 90, 0.8);
-// $brand-color:      #1b618d;
-// $brand-color:      #062f56;
 $brand-color:      #07253e;
 
 $white:            #ffffff;
@@ -43,8 +42,13 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "custom",
+        "button",
+        "images",
         "typography",
         "gallery",
+        "form",
+        "menu",
+        "video",
+        "footer",
         "syntax-highlighting"
 ;

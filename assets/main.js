@@ -1,9 +1,5 @@
   $(document).ready(function(){
-    $(function() {
-      if (location.pathname.split("/")[1] !== '') {
-        $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent().addClass('selected');
-      }
-    });
+
     //Menu toggle
     $('nav button').click(function(){
       $('body').toggleClass("no-scroll");
@@ -22,6 +18,6 @@
       $('nav').removeClass("menu-open");
       $('nav ul').addClass("hide-sm");
       $('nav h3').text('menu');
-      $(this).addClass('selected').siblings().removeClass('selected');
+      // $(this).addClass('selected').siblings().removeClass('selected');
     });
   })

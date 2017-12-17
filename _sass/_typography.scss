@@ -1,11 +1,21 @@
 h1 {
-  font-family: "Cinzel Decorative", cursive;
+  font-family: "Cinzel Decorative";
   font-size: 2.5rem;
   line-height: 1;
+  text-align: center;
+  text-shadow: 2px -4px 3px #111;
+  color: $white;
+}
+
+h1.decorated {
+  position: absolute;
+  top: 25vh;
+  left: 55vw;
+  font-size: 4rem;
 }
 
 h2, h3 {
-  color: $grey-color-light;
+  color: $grey-color-dark;
 }
 
 a {
@@ -18,9 +28,6 @@ a {
 .copy {
   margin-bottom: $spacing-unit;
   padding: $spacing-unit;
-  h3 {
-    // margin-left: -1rem;
-  }
   p:first-of-type::first-line {
     font-size: 1.15rem;
   }

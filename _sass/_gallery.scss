@@ -1,12 +1,7 @@
 .gallery-wrapper {
-  margin-bottom: $spacing-unit;
+  padding: $spacing-unit / 2;
   h2 {
-    color: $grey-color-light;
-    &:after {
-      content: "-";
-      width: 90%;
-      display: block;
-    }
+    margin-left: 5%;
   }
   ol {
     list-style-type: none;
