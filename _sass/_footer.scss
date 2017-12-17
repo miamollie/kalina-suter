@@ -1,0 +1,10 @@
+footer li, footer h3, footer ul {
+  display: inline;
+}
+
+footer li {
+  padding: $spacing-unit / 2;
+  > i {
+    font-size: 1.5rem;
+  }
+}

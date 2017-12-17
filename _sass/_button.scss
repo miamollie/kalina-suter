@@ -1,0 +1,15 @@
+.contact-button {
+  padding: $spacing-unit / 2;
+  letter-spacing: 0.1rem;
+  margin: 0 auto 5px auto;
+  display: block;
+  text-align: center;
+  color: currentColor;
+  border: 2px solid currentColor;
+  width: 170px;
+  &:visited {color: currentColor;}
+  &:hover {
+    color: $grey-color-light !important;
+    background-color: $hover-color;
+  }
+}
