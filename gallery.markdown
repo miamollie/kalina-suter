@@ -20,45 +20,46 @@ Galleries:
     credit: 'Jeff Lewis '
     image: "/uploads/Kalina-65.jpg"
   - title: CirquAntique Cocktail
-    credit:
+    credit: 
     image: "/uploads/Cirquantique.jpg"
   Photoshoots:
-  - title:
+  - title: 
     credit: Jeff Woodward
     image: "/uploads/Draptrap.jpg"
-  - title:
+  - title: 
     credit: Jeff Woodward
     image: "/uploads/bridge-split.jpg"
-  - title:
+  - title: 
     credit: Jeff Woodward
     image: "/uploads/Back-planche-studio.jpg"
-  - title:
+  - title: 
     credit: Jeff Woodward
     image: "/uploads/armbreaker.jpg"
-  - title:
+  - title: 
     credit: Jeff Woodward
     image: "/uploads/DSC_1345.jpg"
-  - title:
+  - title: 
     credit: Jeff Woodward
     image: "/uploads/kalina_dance_trapeze2.jpg"
   Training:
-  - title:
-    credit:
+  - title: 
+    credit: 
     image: "/uploads/IMG_0290.JPG"
-  - title:
-    credit:
+  - title: 
+    credit: 
     image: "/uploads/IMG_1298.JPG"
-  - title:
-    credit:
+  - title: 
+    credit: 
     image: "/uploads/IMG_4091.JPG"
-  - title:
-    credit:
+  - title: 
+    credit: 
     image: "/uploads/IMG_4955.jpg"
-  - title:
-    credit:
+  - title: 
+    credit: 
     image: "/uploads/IMG_5364.jpg"
-  - title:
-    credit:
+  - title: 
+    credit: 
     image: "/uploads/IMG_E5191.JPG"
 layout: gallery
 ---
+
