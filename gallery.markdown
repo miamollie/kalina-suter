@@ -1,7 +1,7 @@
 ---
 title: Gallery
 permalink: "/gallery/"
-position: 1
+position: 2
 Galleries:
   Performances:
   - title: 'Circus Spectacular '
@@ -15,32 +15,32 @@ Galleries:
     image: "/uploads/Heelhangprotrack.jpg"
   - title: Drommenes Sirkus
     credit: Preben Liland Madsen
-    image: "/uploads/12794913_10153832605980791_14466826340189310_o.jpg"
+    image: "/uploads/duo-hoop.jpg"
   - title: 'Circus Spectacular '
     credit: 'Jeff Lewis '
     image: "/uploads/Kalina-65.jpg"
   - title: CirquAntique Cocktail
     credit: 
-    image: "/uploads/Cirquantique%20-%20Cocktail%2022%20octobre%202017-8528.jpg"
+    image: "/uploads/Cirquantique.jpg"
   Photoshoots:
   - title: 
     credit: Jeff Woodward
     image: "/uploads/Draptrap.jpg"
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/bridge%20split%20.jpg"
+    image: "/uploads/bridge-split.jpg"
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/Back%20planche%20studio%20.jpg"
+    image: "/uploads/Back-planche-studio.jpg"
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/armbreaker%20.jpg"
+    image: "/uploads/armbreaker.jpg"
   - title: 
     credit: Jeff Woodward
     image: "/uploads/DSC_1345.jpg"
   - title: 
     credit: Jeff Woodward
-    image: "/uploads/DSC_1443-2%20(1024x1024).jpg"
+    image: "/uploads/kalina_dance_trapeze2.jpg"
   Training:
   - title: 
     credit: 

@@ -15,7 +15,6 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -28,10 +27,14 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    background-color: $brand-color;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("/uploads/moss.jpg");
 }
 
 // colours
-
 .brand-color {
   color: $brand-color;
 }
@@ -68,9 +71,6 @@ li {
     }
 }
 
-ul {
-  margin: $spacing-unit 0;
-}
 
 
 /**
@@ -85,11 +85,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $white;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($white, 15%);
     }
 
     &:hover {
@@ -127,4 +127,8 @@ a {
         display: table;
         clear: both;
     }
+}
+
+.blend {
+  background-blend-mode: soft-light;
 }
