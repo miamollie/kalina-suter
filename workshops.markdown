@@ -3,7 +3,6 @@ title: Workshops
 permalink: "/workshops/"
 published: false
 position: 3
-banner-image: "/uploads/kalina-2.jpg"
 workshops:
   heading: Available Workshops
   copy: 'Kalina draws on her extensive movement and body experience to cater workshops
