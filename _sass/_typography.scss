@@ -12,6 +12,10 @@ h1.decorated {
   top: 25vh;
   left: 55vw;
   font-size: 4rem;
+  @include media-query($on-palm) {
+    top: 25vh;
+    left: 5vw;
+  }
 }
 
 h2, h3 {
