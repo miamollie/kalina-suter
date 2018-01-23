@@ -27,11 +27,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background-color: $brand-color;
+    background-color: #101519;
     background-blend-mode: soft-light;
     background-size: cover;
     background-position: bottom;
     background-image: url("/uploads/moss.jpg");
+    filter: grayscale(20%);
 }
 
 // colours

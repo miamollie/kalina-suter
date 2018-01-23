@@ -1,7 +1,6 @@
 .video {
 	position: relative;
 	padding-bottom: 75%; /* 16:9 */
-	// padding-top: 25px;
 	height: 0;
 }
 .video iframe {
@@ -11,4 +10,7 @@
 	width: 100%;
 	height: 100%;
   margin: 0 $spacing-unit;
+	@include media-query($on-palm) {
+		margin: 0;
+	}
 }
