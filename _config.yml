@@ -1,6 +1,5 @@
 ---
 title: Kalina Suter Aerial Artist
-published: false
 timezone: UTC
 collections:
   posts:
@@ -9,9 +8,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+published: false
 email: kalinasuter@gmail.com
 description: Aerialist dancer creation
-baseurl:
+baseurl: 
 url: http://kalinasuter.com
 instagram_username: inkedleaf
 markdown: kramdown
