@@ -8,6 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+published: false
 email: kalinasuter@gmail.com
 description: Aerialist dancer creation
 baseurl: 

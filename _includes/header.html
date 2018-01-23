@@ -16,10 +16,9 @@
     {% assign pages = site.pages | sort:"position" %}
     <ul class="flex hide-sm">
       {% for p in pages %}
-        {% if p.published != false and p.permalink != "/"  %}
+        {% if p.published != false and p.permalink != "/" and p.title %}
         <li {% if p.url == page.permalink %}class="selected"{% endif %}>
           <a class="page-link" href="{{ p.permalink }}">
-            {% include svg-line.html %}
             <h4>{{ p.title }}</h4>
             {% include svg-line.html %}
           </a>
