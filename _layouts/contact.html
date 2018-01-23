@@ -7,7 +7,14 @@ layout: default
   style="background-image: url({{page.large-image}}); background-color: hsla(0, 23%, 86%, 0.72); min-height: 70vh;">
   <div class="half-lg padXY-lg padXY-sm">
     <h2>{{page.tagline}}</h2>
-    {{page.content}}
+    <div class="copy">
+      {{page.content}}
+    </div>
+    <div>
+      {% if page.download-url %}
+        {% include download-content.html url=page.download-file text=page.download-text %}
+      {% endif %}
+    </div>
   </div>
   <form action="https://formspree.io/{{site.email}}" method="POST"
     class="flex fColumn-lg fColumn-sm half-lg full-sm">
