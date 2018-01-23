@@ -4,7 +4,7 @@ permalink: "/contact/"
 position: 4
 tagline: Contact Kalina
 large-image: "/uploads/kalina-hand-ropes.jpg"
-download-file: "/uploads/hi-kalina.txt"
+download-file: "/uploads/Kalina%20Suter%20Circus%20Resume%202018.pdf"
 download-text: Download Resume
 layout: contact
 ---
