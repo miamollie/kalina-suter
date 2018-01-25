@@ -11,4 +11,4 @@ layout: contact
 
 For bookings and inquiries please fill out the box.
 
-You can download Kalina's resume below
+You can download Kalina's resume below.
