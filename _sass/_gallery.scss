@@ -14,9 +14,8 @@
       cursor: pointer;
 
       img {
-        width: 100%;
         background-color: $brand-color;
-        max-width: 23vw;
+        max-width: 25vw;
         margin: 5px;
         @include media-query($on-palm) {
           width: 100%;
@@ -25,6 +24,9 @@
       }
 
       figcaption {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         position: absolute;
         top: 0;
         left: 0;
@@ -33,18 +35,13 @@
         height: 100%;
         width: 100%;
         opacity: 0;
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: scale3d(1.2,1.2,1.2);
-        transform: scale3d(1.2,1.2,1.2);
+        -webkit-transition: opacity 0.35s;
+        transition: opacity 0.35s;
         background-color: rgba(0,0,0,0.5);
         a {
           color: white;
-          position: absolute;
-          top: 40%;
-          display: block;
           opacity: 0;
-          font-size: 1.4rem;
+          font-size: 1.2rem;
           transition: all 0.35s ease;
           transform: scale(1.5);
         }
@@ -56,8 +53,7 @@
     li:hover, li:focus {
       figcaption {
         opacity: 1;
-        transform: scale3d(1,1,1)
-      }
+     }
 
       a {
         opacity: 1;

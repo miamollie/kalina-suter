@@ -4,7 +4,7 @@ layout: default
 
 <div class="gallery-wrapper">
   <h2>Performances</h2>
-  <ol class="grid" data-masonry>
+  <ol class="performances" data-masonry>
   {% for image in page.Galleries.Performances %}
     <li class='grid-item'>
       <img src="{{ image.image }}" />
@@ -17,7 +17,7 @@ layout: default
   {% endfor %}
   </ol>
   <h2>Photoshoots</h2>
-  <ol class="grid" data-masonry>
+  <ol class="photoshoots" data-masonry>
   {% for image in page.Galleries.Photoshoots %}
     <li class='grid-item'>
       <img src="{{ image.image }}" />
@@ -30,7 +30,7 @@ layout: default
   {% endfor %}
   </ol>
   <h2>Training</h2>
-  <ol class="grid" data-masonry>
+  <ol class="training" data-masonry>
   {% for image in page.Galleries.Training %}
     <li class='grid-item'>
       <img src="{{ image.image }}" />
@@ -46,9 +46,21 @@ layout: default
 
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script>
-  var msnry = new Masonry( '.grid', {
+  var msnry1 = new Masonry( '.performances', {
     itemSelector: '.grid-item',
-    columnWidth: 200,
+    columnWidth: 150,
+    gutter: 10
+  });
+
+  var msnry1 = new Masonry( '.training', {
+    itemSelector: '.grid-item',
+    columnWidth: 150,
+    gutter: 10
+  });
+
+  var msnry1 = new Masonry( '.photoshoots', {
+    itemSelector: '.grid-item',
+    columnWidth: 150,
     gutter: 10
   });
 </script>
