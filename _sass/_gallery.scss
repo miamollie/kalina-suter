@@ -1,25 +1,84 @@
 .gallery-wrapper {
   padding: $spacing-unit / 2;
+  position: relative;
 
-  h2 {
-    margin-left: 5%;
+  .dropdown {
+    border: 2px solid;
+    border-radius: 1%;
+    box-shadow: 1px 1px 3px grey;
+
+    h2 {
+      text-align: center;
+      cursor: pointer;
+    }
+
+    #dropdown-body {
+      display: none;
+      &.show {
+        display: block;
+      }
+    }
   }
 
-  ol {
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+
+    h2 {
+      border-bottom: 2px solid currentColor;
+      padding-bottom: 10px;
+      width: 33.33%;
+      position: relative;
+      cursor: pointer;
+      transition: 0.3s ease;
+
+      &.active, &:hover {
+        color: $brand-color;
+        &::after {
+          content: '';
+          width: 0;
+          height: 0;
+          position: absolute;
+          bottom: -25px;
+          border-left: 25px solid transparent;
+          border-right: 25px solid transparent;
+          border-top: 25px solid currentColor;
+          transition: 0.3s ease;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    min-height: 70vh;
+    display: none;
+    &.show {
+      display: block;
+    }
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 30%;
+    @include media-query($on-palm) {
+      width: 95%;
+    }
+  }
+
+  ul {
     list-style-type: none;
 
     li {
-      position: relative;
       text-align: center;
       cursor: pointer;
 
       img {
         background-color: $brand-color;
-        max-width: 25vw;
+        display: block;
+        max-width: 95%;
         margin: 5px;
         @include media-query($on-palm) {
           width: 100%;
-          max-width: none;
         }
       }
 
@@ -28,16 +87,16 @@
         flex-direction: column;
         justify-content: center;
         position: absolute;
+        content: '';
         top: 0;
         left: 0;
-        content: '';
         opacity: 0;
         height: 100%;
         width: 100%;
-        opacity: 0;
         -webkit-transition: opacity 0.35s;
         transition: opacity 0.35s;
         background-color: rgba(0,0,0,0.5);
+
         a {
           color: white;
           opacity: 0;

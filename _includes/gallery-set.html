@@ -1,0 +1,20 @@
+<div class="tab-content {% if include.visible %}show{% endif %}"
+  id="{{ include.id }}">
+  <ul class="masonry">
+    <div class="grid-sizer"></div>
+
+    {% for image in include.images %}
+      <li class="grid-item">
+        <img src="{{ image.image }}" />
+        <figcaption>
+          <a
+            href="{{ image.image }}"
+            data-lightbox="{{ include.id }}"
+            title="{{ image.credit }}" >
+            {{ image.title }}
+          </a>
+        </figcaption>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
