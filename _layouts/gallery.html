@@ -1,42 +1,29 @@
 ---
 layout: default
 ---
-
 <div class="gallery-wrapper">
-  <h2>Performances</h2>
-  <ol class="flex wrap between-lg center-sm">
-  {% for image in page.Galleries.Performances %}
-    <li style="background-image: url({{ image.image }})">
-      <figcaption>
-        <a href="{{ image.image }}" data-lightbox="performances" title="{{ image.credit }}">
-          {{ image.title }}
-        </a>
-    </figcaption>
-    </li>
-  {% endfor %}
-  </ol>
-  <h2>Photoshoots</h2>
-  <ol class="flex wrap between-lg center-sm">
-  {% for image in page.Galleries.Photoshoots %}
-    <li style="background-image: url({{ image.image }})">
-      <figcaption>
-        <a href="{{ image.image }}" data-lightbox="photoshoots" title="{{ image.credit }}">
-          {{ image.title }}
-        </a>
-    </figcaption>
-    </li>
-  {% endfor %}
-  </ol>
-  <h2>Training</h2>
-  <ol class="flex wrap between-lg center-sm">
-  {% for image in page.Galleries.Training %}
-    <li style="background-image: url({{ image.image }})">
-      <figcaption>
-        <a href="{{ image.image }}" data-lightbox="training" title="{{ image.credit }}">
-          {{ image.title }}
-        </a>
-    </figcaption>
-    </li>
-  {% endfor %}
-  </ol>
+
+  <div class="tabs hide-sm">
+    <h2 class="active" data-tab="performances">Performance</h2>
+    <h2 data-tab="photoshoots">Photoshoots</h2>
+    <h2 data-tab="training">Training</h2>
+  </div>
+
+  <div class="dropdown hide-lg">
+    <div id="dropdown-trigger">
+      <h2>Image Galleries&nbsp;<i class="fa fa-angle-down"></i></h2>
+    </div>
+    <div id="dropdown-body">
+      <h2 class="active" data-tab="performances">Performance</h2>
+      <h2 data-tab="photoshoots">Photoshoots</h2>
+      <h2 data-tab="training">Training</h2>
+    </div>
+  </div>
+
+  <div>
+    {% include spinner.html %}
+    {% include gallery-set.html visible=true images=page.Galleries.Performances id="performances" %}
+    {% include gallery-set.html images=page.Galleries.Photoshoots id="photoshoots" %}
+    {% include gallery-set.html images=page.Galleries.Training id="training" %}
+  </div>
 </div>

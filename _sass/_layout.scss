@@ -21,7 +21,7 @@
   .fColumnReverse-lg { flex-direction: column-reverse;}
   .half-lg { width: 48%;}
   .full-lg { width: 80vw; max-width: 1200px; margin-left: auto; margin-right: auto;}
-  .hide-lg { display: none;}
+  .hide-lg { display: none !important;}
   .center-lg { justify-content: center;}
   .end-lg { justify-content: flex-end;}
   .around-lg { justify-content: space-around;}
@@ -29,7 +29,7 @@
   .start-lg { justify-content: flex-start;}
 }
 
-@media screen and (max-width: 698px) {
+@media screen and (max-width: 699px) {
   .padXY-sm { padding: $spacing-unit/2 $spacing-unit/2;}
   .padY-sm { padding: $spacing-unit/2 0;}
   .padX-sm { padding: 0 $spacing-unit/2;}
@@ -41,7 +41,7 @@
   .fColumnReverse-sm { flex-direction: column-reverse;}
   .half-sm { width: 48%;}
   .full-sm { width: 80vw; max-width: 1200px; margin-left: auto; margin-right: auto;}
-  .hide-sm {display: none;}
+  .hide-sm { display: none !important; }
   .center-sm { justify-content: center;}
   .around-sm { justify-content: space-around;}
   .between-sm { justify-content: space-between;}
