@@ -45,7 +45,7 @@ input[type="submit"], textarea[name="message"] {
 }
 
 input[type="submit"]:hover {
-  background-color: rgba(27, 97, 141, 0.8);
+  background-color: $hover-color;
   border-color: $brand-color;
   color: white;
 }
