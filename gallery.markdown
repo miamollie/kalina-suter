@@ -22,6 +22,9 @@ Galleries:
   - title: CirquAntique Cocktail
     credit: 
     image: "/uploads/Cirquantique.jpg"
+  - title: Sub Rosa
+    credit: Elsie Smith
+    image: "/uploads/subrosa%20lyra%201.png"
   Photoshoots:
   - title: 
     credit: Jeff Woodward
@@ -39,8 +42,8 @@ Galleries:
     credit: Jeff Woodward
     image: "/uploads/DSC_1345.jpg"
   - title: 
-    credit: Jeff Woodward
-    image: "/uploads/kalina_dance_trapeze2.jpg"
+    credit: Jeff Lewis
+    image: "/uploads/Kalina%20(47%20of%2089).jpg"
   Training:
   - title: 
     credit: 
