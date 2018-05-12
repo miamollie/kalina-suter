@@ -53,7 +53,7 @@ Galleries:
     image: "/uploads/IMG_1298.JPG"
   - title: 
     credit: 
-    image: "/uploads/IMG_4091.JPG"
+    image: "/uploads/IMG_7063.jpg"
   - title: 
     credit: 
     image: "/uploads/IMG_4955.jpg"
@@ -63,6 +63,12 @@ Galleries:
   - title: 
     credit: 
     image: "/uploads/IMG_E5191.JPG"
+  - title: 
+    credit: 
+    image: "/uploads/IMG_6519.jpg"
+  - title: 
+    credit: 
+    image: 
 layout: gallery
 ---
 
